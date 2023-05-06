@@ -1,0 +1,74 @@
+# Creating-a-Form
+Using HTML to create a form
+<!DOCTYPE Html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Creating a Form in HTML
+    </title>
+  </head>
+  <body>
+    <h1>Create a Form</h1>
+    <form action="form-handling-url" method="post">
+    <fieldset>
+      <legend>Add User</legend>
+      <div>
+        <label for="firstname">First name</label>
+        <input type="text" id="firstname">
+      </div>
+      <div>
+         <label for="lastname">Last name</label>
+         <input type="text" id="lastname">
+      </div>
+      <div>
+          <label for="email">Email</label>
+          <input type="email" id="email>
+      </div>
+      <div>
+         <label for="status">Status</label>
+           <select id="status" name="status">
+              <option value="student">Student</option>
+              <option value="instructor">Instructor</option>
+              <option value="guest">Guest</option>
+           </select>
+       </div>
+       <p>Choose your favorite programming language</p>
+       <div>
+         <input type="radio"
+                name="radio"
+                id="radio1"></input>
+         <label for="radio1">HTML</label>
+         <input type="radio"
+                name="radio" 
+                id="radio2"><input>
+         <label for="radio2">CSS</label>
+         <input type="radio" name="radio" id="radio3"></input>
+         <label for="radio3">JavaScript</label>
+       </div>
+       <label for="comments">Comments:</label>
+         <textarea id="comments" name="comments" rows="5" cols="33">I love coding...</textarea>
+       <div>
+         <label for="date1">Date</label>
+            <input type="date" name="date" id="date1">
+       </div>
+       <div>
+          <input type="checkbox" name="" id="">
+          <label for="">Sign up for newsletter</label>
+       </div>
+       <div>
+          <input type="checkbox" name="" id="">
+          <label for="">Agree to terms and conditions</label>
+       </div>
+       <div>
+       <input type="submit" name="submit" id="submit">
+       <label for="submit"></label>
+     </div>
+
+
+    </fieldset>
+    </form>
+
+
+
+  </body>
+</html>
